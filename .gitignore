@@ -1,0 +1,12 @@
+.env
+/data/raw/*
+/data/processed/*
+__pycache__/
+/CCDB/
+/.venv/
+/models/
+
+/frontend/node_modules/
+/frontend/dist/
+/*.zip
+/finetune_complaint_router_executed.ipynb

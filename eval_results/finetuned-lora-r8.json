@@ -1,0 +1,3525 @@
+{
+  "validation_sha256": "4fa1aa1cb1528bdcc21d6b5fb83d0fabbebeb57623eb96b76f3acacb586ad4cc",
+  "accuracy": 0.8547619047619047,
+  "avg_latency_ms": 143.3669293785821,
+  "invalid_predictions": 0,
+  "classification_report": {
+    "Credit reporting": {
+      "precision": 0.8203125,
+      "recall": 0.875,
+      "f1-score": 0.8467741935483871,
+      "support": 120.0
+    },
+    "Debt collection": {
+      "precision": 0.897196261682243,
+      "recall": 0.8,
+      "f1-score": 0.8458149779735683,
+      "support": 120.0
+    },
+    "Credit card": {
+      "precision": 0.825,
+      "recall": 0.825,
+      "f1-score": 0.825,
+      "support": 120.0
+    },
+    "Checking or savings account": {
+      "precision": 0.7946428571428571,
+      "recall": 0.7416666666666667,
+      "f1-score": 0.7672413793103449,
+      "support": 120.0
+    },
+    "Mortgage": {
+      "precision": 0.9333333333333333,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9333333333333333,
+      "support": 120.0
+    },
+    "Student loan": {
+      "precision": 0.9147286821705426,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9477911646586346,
+      "support": 120.0
+    },
+    "Money transfer": {
+      "precision": 0.7983870967741935,
+      "recall": 0.825,
+      "f1-score": 0.8114754098360656,
+      "support": 120.0
+    },
+    "<invalid>": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.8547619047619047,
+    "macro avg": {
+      "precision": 0.7479500913878963,
+      "recall": 0.7479166666666666,
+      "f1-score": 0.7471788073325417,
+      "support": 840.0
+    },
+    "weighted avg": {
+      "precision": 0.8548001044433099,
+      "recall": 0.8547619047619047,
+      "f1-score": 0.8539186369514762,
+      "support": 840.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Credit reporting",
+      "Debt collection",
+      "Credit card",
+      "Checking or savings account",
+      "Mortgage",
+      "Student loan",
+      "Money transfer",
+      "<invalid>"
+    ],
+    "counts": [
+      [
+        105,
+        5,
+        3,
+        0,
+        3,
+        4,
+        0,
+        0
+      ],
+      [
+        14,
+        96,
+        3,
+        1,
+        4,
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        4,
+        99,
+        8,
+        0,
+        0,
+        6,
+        0
+      ],
+      [
+        2,
+        0,
+        7,
+        89,
+        1,
+        3,
+        18,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        2,
+        112,
+        3,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        0,
+        118,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        7,
+        12,
+        0,
+        0,
+        99,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "predictions": [
+    {
+      "label": "Money transfer",
+      "latency_ms": 116.65204699966125
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 128.20002300031774
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 138.74875099918427
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 95.69658099917433
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 164.8480900003051
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 184.41483399965364
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 95.08840599937685
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 130.45029599925329
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 96.10914499990031
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 139.57425500029785
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 133.9755739991233
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 124.72394799988251
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 98.17947699957585
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 128.98264999967068
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 123.6085689997708
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 195.54923600026086
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 140.37502099927224
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 94.64587900038168
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 133.2793080000556
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 178.08158200023172
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 175.78719500033912
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 101.14110199992865
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 136.4419209994594
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 100.42985600011889
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 179.30226400039828
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 124.86033999994106
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 117.10405600024387
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 260.7943860002706
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 104.64227800002845
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 107.2261420003997
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 168.76349599988316
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 118.66540600021835
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 215.11604500028625
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 147.24072800072463
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 189.78250899999694
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 168.9198359999864
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 128.4437269996488
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 152.06254799977614
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 106.74203999951715
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 106.13712200029113
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 163.99136200016073
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 212.35153899942816
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 140.75317900005757
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 176.52534799981368
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 122.33560100048635
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 185.02325500048755
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 153.0161489999955
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 123.07500099996105
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 116.2924110003587
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 173.02988700066635
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 169.21956800069893
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 115.13904300045397
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 196.06242999998358
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 209.18210099989665
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 139.9131629996191
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 146.5493219993732
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 173.0420880003294
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 223.3463499997015
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 216.94570199997543
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 134.6553719995427
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 220.2451339999243
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 166.6813159999947
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 179.5767089997753
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 176.464279999891
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 155.02523399936763
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 136.48552099948574
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 152.77101499941637
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 131.64049700026226
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 137.9606030004652
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 128.2477109998581
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 99.72237700003461
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 143.8939420004317
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 213.75884400003997
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 130.92646799941576
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 137.294742999984
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 131.80749399998604
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 192.97722999999678
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 129.2183670002487
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 195.23469199975807
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 138.5985150000124
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 130.17537199993967
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 177.81033899973409
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 129.93213500067213
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 175.90978600037488
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 136.12363599986566
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 144.23918000011327
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 113.68897700049274
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 129.61731700033852
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 115.38287999974273
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 126.81276799958141
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 130.65638700027193
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 126.57449200014526
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 188.56576299913286
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 205.1158240001314
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 133.48289699933957
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 98.88409500035777
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 128.85117899986653
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 129.2338720004409
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 153.43099199981225
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 139.50764999935927
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 101.58925499945326
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 106.8661509998492
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 129.47967699983565
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 139.4408719997955
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 115.25829899983364
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.95651099971292
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 221.18839299946558
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.7978259993979
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 169.99979100000928
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 125.23830700047256
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 136.97351799964963
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 99.66706099930889
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 107.93965099946945
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 110.80415100059327
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 105.86588499973004
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 104.46277200026088
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 220.6298559995048
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 111.54710299979342
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 99.59582499959652
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 139.96629100074642
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 94.28892500000075
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 169.636695999543
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 96.8453839996073
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 141.10361499933788
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 95.33784199993534
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 121.18973599990568
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 131.7566950001492
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 99.71256399967388
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 96.94930900059262
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 96.35300100035238
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 226.66680000020278
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 129.033002000142
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 198.64667000001646
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 127.99298400022963
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 143.76564800022607
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 119.22025000058056
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 147.85561499957112
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 203.8709629996447
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 230.49862300013046
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 171.97052800020174
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 209.64647700020578
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 149.56922499914072
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 122.17245099964202
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 156.618690999494
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 305.04823199953535
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 162.4315339995519
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 235.70274399935442
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 169.86310099946422
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.70319799968274
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 122.18782299987652
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 142.73290500022995
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 113.86990399932984
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 94.38378200047737
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 110.02336000001378
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 129.3218370001341
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 178.5129069994582
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 128.17057499978546
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 206.3515150002786
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 183.32212600034836
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 128.6763489997611
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 232.1374309995008
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 125.32910800018726
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 147.73125400006393
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 226.21747700031847
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 147.4425140004314
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 123.3803019995321
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 187.7570899996499
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 143.2533830002285
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 136.68027599942434
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 128.71487100073864
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 175.13786899962724
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 108.88512800011085
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 106.47753800003557
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 94.74185999988549
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 177.319097999316
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 163.6590250000154
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 122.083535999991
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 93.5744070002329
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 94.73181100020156
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 98.97025200007192
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 134.19696500022837
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 124.06147700039583
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 191.99447799928748
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 170.43692600054783
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 126.53350500022498
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 113.19767500026501
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 115.80783400040673
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 96.19211400058703
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 182.65264900037437
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 126.90119600028993
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 174.12734200024715
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 132.54494899956626
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 137.65533800051344
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 157.81501099991146
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 194.92485400041915
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 122.69337799989444
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 134.4293270003618
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 106.20276899953751
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 99.2144179999741
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 171.8123700002252
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 97.4752840002111
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 213.3743680005864
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 124.6816900002159
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 93.42319300048985
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 96.95550800006458
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 225.50459600006434
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 121.41358499957278
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 136.22173099975043
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 140.09446900035982
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 97.49377899970568
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 94.02305999992677
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 120.5427779996171
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 137.12777700038714
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 107.29456300032325
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 151.38611200018204
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 170.92406600022514
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 129.97174900010577
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 178.15355800030375
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 159.48759599996265
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 124.10158000056981
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 146.4406630002486
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 250.15626399999746
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 190.15471700004127
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 128.980913000305
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 182.91624700032116
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 141.065494999566
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 152.92221900017466
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 146.92331399965042
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 118.49539000013465
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 147.01354400040145
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 187.5955850000537
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 202.9676419997486
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 243.2570119999582
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 293.59656300039205
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 173.89768900011404
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 95.5172459998721
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 166.73480400004337
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 100.48088300027302
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 167.62827200000174
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 150.94131200021366
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 213.6149200005093
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 120.16722699991078
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 106.2495719997969
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 109.5835989999614
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 135.92099600009533
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 130.52055899970583
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 230.27381900010369
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 106.05225800009066
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 121.89596200005326
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 124.81972799923824
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 104.69247299988638
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 123.29304799914098
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 93.10662700045214
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 99.66180899937171
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 94.3823549996523
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 127.35965699994267
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 124.44911900001898
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 141.04361799945764
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 93.46013400045194
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 134.91256100041937
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 214.39808799914317
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 182.77556900011405
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 202.90106199990987
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 138.55430000057822
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 213.3535180000763
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 135.0045270000919
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 93.09363800002757
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 103.59676100051729
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 90.62444800019875
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 128.00833199980843
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 115.8185370004503
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 92.60666200043488
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 129.27425199995923
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 119.77764400035085
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 99.8507479998807
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 105.42282200003683
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 191.40101799985132
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 182.62184800005343
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 183.51233400062483
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 115.58855600014795
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 119.50415299997985
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 210.7726599997477
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 116.42404600024747
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 186.3106089995199
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 139.77979599985701
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 108.23544199956814
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 166.76264699981402
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 140.34600400009367
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 167.92796499976248
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 113.57898200003547
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 126.5893320005489
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 94.70091999992292
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 113.03042200052005
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 181.1029860000417
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 90.77793299911718
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 91.03090600001451
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 118.58996600039973
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 162.90302499965037
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 96.47674300049403
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 135.0457340004141
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 138.94837600037135
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 121.38767600026767
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 121.37553199954709
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 96.2925810008528
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 127.1299239997461
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 105.59953499978292
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 129.62766800046666
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 164.12874600064242
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 154.03428799982066
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 283.0908420000924
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 137.20075800029008
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 127.2629439999946
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 199.41046700023435
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 130.192946000534
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 130.1109340001858
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 142.125541000496
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 181.4473149997866
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 201.38466500065988
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 132.15756699992198
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 208.37953799946263
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 137.15220000085537
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 260.193099999924
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 285.65363899997465
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 236.5387350000674
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 93.6017139993055
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 118.89312200037239
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 106.3587019998522
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 203.41910099978122
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 101.54484900067473
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 93.57963999991625
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 214.2443259999709
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 174.0458310005124
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 127.28094699923531
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 104.3890740002098
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 101.14759799944295
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 174.2522470003678
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 93.64558200013562
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 104.74697000063315
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 203.65125500029535
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 161.5429059993403
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 98.10687600020174
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 98.79739799998788
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 103.57545999977447
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 105.8102790002522
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 133.5186349997457
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 185.92571500084887
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 165.68639800061646
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 130.82265100001678
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 189.97182400016754
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 177.23747400032153
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 137.83776199943532
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 99.70179899937648
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 94.57210399978067
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 133.86075499965955
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 103.2657179994203
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 100.9322029995019
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 114.39296200023819
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 119.59650200060423
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 179.51210100000026
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 211.60711599986826
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 96.83716099971207
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 167.30435800036503
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 136.7328730002555
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 163.1160130000353
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 169.31731699969532
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 110.803164000572
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 103.25406699939776
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 135.68483300059597
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 118.87627400028578
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 137.80687599955854
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 191.89768599972012
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 164.40695199980837
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 114.89232599979005
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 165.81587700056843
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 93.87062699988746
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 181.84553399987635
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 200.94995599993126
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 141.57119100036653
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 131.9489010002144
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 155.77038900028128
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 106.09639900030743
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 127.20649699986097
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 136.99375000032887
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 155.40786499968817
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 97.30873700027587
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 122.0948509999289
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 200.47826300015004
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 106.62154400051804
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 134.51045300007536
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 134.0019299996129
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 210.70428199982416
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 94.50860800006922
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 173.66409300029773
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 128.2221360006588
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 120.29673699998966
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 190.95403299979807
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 139.1546830000152
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 189.12681799974962
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 120.71655900035694
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 116.76294100016094
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 239.3649360001291
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 130.02927900015493
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 176.30009799995605
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 135.87155599998368
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 117.11515199931455
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 112.89166099959402
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 167.12271200049145
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 143.80192200042075
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 149.4734009993408
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 187.47135600006004
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 275.20246299991413
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 210.08277999953862
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 212.78626500043174
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 181.5459009994811
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 130.65581799946813
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 204.60558800004947
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 185.76487700011057
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 92.2788309999305
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 95.22597000068345
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 184.50993099941115
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 126.01636899944424
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 135.34418800009007
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 92.10583599997335
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 91.48480000021664
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 154.92888399967342
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 114.66689099961513
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 91.85349099971063
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 113.71133299962821
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 102.97204299968143
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 136.21245800004544
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 119.04470800072886
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 162.3258910003642
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 104.43295000004582
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 92.40027900068526
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 122.71156899987545
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 125.09194199992635
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 100.55656599979557
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 125.35610800023278
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 162.45916600018973
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 202.1217780002189
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 117.76904999987892
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 120.04252099995938
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 90.46492700053932
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 102.62955200050783
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 191.96588700015127
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 242.88047200025176
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 122.05546600034722
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 94.18558600009419
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 191.92675800059078
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 149.6573320000607
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 122.1987499993702
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 181.26010200012388
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 166.6783580003539
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 161.07402499983436
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 142.88159099942277
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 137.46594799977174
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 205.00849300060509
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 185.57705599960173
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 155.9327269997084
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 178.1059009999808
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.93992900045123
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 172.81308499968873
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 98.4217669993086
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 124.49003100027767
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 190.32709300063289
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 112.0242880006117
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 217.45508699950733
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 116.42068900073355
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 184.00222799937183
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 112.32417399969563
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.29361600016273
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 160.63988600035373
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 120.09571399994456
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 108.55042599996523
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 122.1497200003796
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 93.86543900018296
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 208.0492340001001
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 163.38288100087084
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 135.19922900013626
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 177.14197199984483
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 107.73831400001654
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 118.02972500026954
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 134.3408479997379
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 158.97880499960593
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 135.89070699981676
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 123.73214400031429
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 174.42281999956322
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 186.57602399980533
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 198.47523600037675
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 225.96869500011962
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 169.5959179996862
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 164.69085500011715
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 180.69568499959132
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 217.43713300020318
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 127.14951599991764
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 172.171277000416
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 144.5019089997004
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 235.48170699996263
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 153.80542499951844
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 126.79768199996033
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.29128200028936
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 116.35655600002792
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 129.36759299918776
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 125.26913500005321
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 92.74724500028242
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 165.71238199958316
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 135.04586599992763
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 193.75271299941232
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 99.5605340003749
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 123.85131399969396
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 213.96936400014965
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 166.8071369995232
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 157.99812699970062
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 93.74378499978775
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 157.20305099966936
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 123.50382499971602
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 109.75893799968617
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 188.7019080004393
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 171.12490900035482
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 117.27255300047545
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 158.54514300008304
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 93.35378299965669
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 198.459768000248
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 141.32896099999925
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 104.40701600055036
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 211.22207900043577
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 120.54336900018825
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 164.56874000050448
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 191.91738799963787
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 165.31494199989538
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 108.04407599971455
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 167.5812789999327
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 119.51046300055168
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.42442000019946
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 203.89731999966898
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 131.8524440002875
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 129.70783299988398
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 178.52627299998858
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 163.11082199990778
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 160.74530800051434
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 127.20424799954344
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 100.12945200014656
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 214.96208299959108
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 120.24348300019483
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 92.95752700018056
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 94.51543999966816
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 92.31446900048468
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 126.21652800044103
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 95.47086699967622
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 92.21504900051514
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 91.9289490002484
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 226.50991799946496
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 163.57003299981443
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 99.56314100054442
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 123.24647199966421
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 124.73664600020129
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 121.52920399967115
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 158.46272799990402
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 134.61000400002376
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 110.75998900014383
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 118.42466599955515
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 120.44211600004928
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 96.7653160005284
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 150.18858199982787
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 158.55456799999956
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 141.42580600037036
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 121.2517289995958
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 109.26253400066344
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 207.5243879999107
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 137.56883000041853
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 123.42934600019362
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 146.82328199978656
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 200.9220979998645
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 195.05274399944028
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 123.48187600036908
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 170.41119799978333
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 116.89162200036662
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 124.14573300065967
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 234.16506299963658
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 196.56251099968358
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 140.47378599934746
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 182.61811199954536
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 157.6208989999941
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 187.40149600034783
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 134.689544000139
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 217.50738599985198
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 231.47444900041592
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 201.1899050003194
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 179.47044700031256
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 102.44714700002078
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 93.73771999980818
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 167.8273090001312
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 164.55642500022805
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 106.5392279997468
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 154.4329230000585
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 102.14929099947767
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 133.5331270001916
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 90.639005000412
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 134.18978700065054
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 140.04711500001576
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 207.17131399942446
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 148.28045800004475
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 135.735208999904
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 90.13334599967493
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 174.66439199961314
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 93.1644080001206
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 187.7269590004289
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 119.53030599943304
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 151.6077790001873
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 124.44901700018818
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 126.48298800013436
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 127.32464300006541
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 90.62202800032537
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 104.96157800025685
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 125.20420100008778
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 125.32316000033461
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 168.57991100005165
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 145.39536900065286
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 125.21143699996173
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 211.6495379996195
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 96.39219499968021
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 164.98799600049097
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 91.68341900021915
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 102.74927000045864
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 95.08573900075135
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 152.2456829998191
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 132.24601699948835
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 93.02758300054847
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 93.95552500063786
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 126.26064699998096
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 137.94048099953216
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 120.04574099955789
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 127.64227600018785
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 151.2574329999552
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 216.46378799960075
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 164.4922260002204
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 134.68965500032937
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 95.87251599987212
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 125.66416599929653
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 95.05138300028193
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 96.78173199972662
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 105.43329400024959
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 92.52944400031993
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 117.80269200062321
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 216.59329299927776
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 98.2402199997523
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 177.31903599997167
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 122.03543000032369
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 93.15116800007672
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 126.02320599944505
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 127.39865799994732
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 105.85337600059574
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 99.62474100029794
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 120.72353300027316
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 209.67718200063246
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 96.6153610006586
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 141.06121199984045
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 109.32184400007827
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 176.5150490000451
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 92.28671300024871
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 105.59213299984549
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 168.75576800066483
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 98.95785599928786
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 168.11702700033493
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 156.8638379994809
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 138.2253159999891
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 124.65652399987448
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 125.69325499953266
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 125.56719500025793
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 147.35947899953317
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 122.78621600034967
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 120.46692700005224
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 249.40484400030982
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 249.298951000128
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 120.45789799958584
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 222.7773860004163
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 154.372618000707
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 149.54102100000455
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 144.08624800034886
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 160.56682399994315
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 154.93761400011863
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 149.86064799995802
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 176.76435399971524
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 127.27578900012304
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 105.0222660005602
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 108.31235399928119
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 136.01622700025473
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 100.28282900020713
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 138.78482400014036
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 104.16214300039428
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 95.8918630003609
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 91.39442000014242
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 211.32854600000428
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 225.94233799918584
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 148.63527799934673
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 136.59284400000615
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 176.84600399934425
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 130.31133999993472
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.38450900072348
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 215.0711569993291
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 141.5319299994735
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 163.77163699962693
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 108.14614599985362
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 91.67595799954142
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 210.50979200026632
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 176.42338599944196
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 141.9796320005844
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 112.74544299976696
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 142.01248999961535
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 126.03850200048328
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 93.76063600029738
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 100.43789599967567
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 156.95049199985078
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 180.58618700069928
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 131.26968199958355
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 176.84576700048638
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 165.1614279999194
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 171.7789130007077
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 96.69337299965264
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 122.54749800013087
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 137.47100199998386
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 127.73081199975422
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 145.5420550000781
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 117.63461300051858
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 137.25532900025428
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 128.13113599986536
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 106.86317699946812
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 138.75439000003098
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 159.80748099991615
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 136.54290700014826
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 109.91158900014852
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 119.75705699933314
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 127.238665000732
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 131.2395220002145
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 176.84787700000015
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 99.38547000001563
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 164.51945700009674
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 135.01510900005087
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 119.6396300001652
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 93.3390000000145
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 121.48731600063911
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 215.45966200028488
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 101.91869599930214
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 106.22248799973022
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 124.41952399967704
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 110.93199200058734
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 120.65263800013781
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 94.75903600014135
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 149.4822889999341
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 121.63036200036004
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 101.33382599997276
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 167.4454900003184
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 124.2582360000597
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 92.31647800061182
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 102.16734900041047
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 159.17197599992505
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 211.30099299989524
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 268.7357670001802
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 189.72524299988436
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 259.1820900006496
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 145.1995329998681
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 189.3078079992847
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 120.53559699961625
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 114.95929099964997
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 170.63411100025405
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 195.62688400037587
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 224.646980000216
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 124.28119899959711
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 191.00460400022712
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 147.50832800018543
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 147.98740999958682
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 149.65544599999703
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 122.3180199995113
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 100.69400799966388
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 168.015227000069
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 121.66547900051228
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 125.28817099973821
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 122.40851000024122
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 191.3406980002037
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 117.4073230004069
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 137.4077539994687
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 124.7436639996522
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 124.64297600035934
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 141.48135499999626
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 93.41300699998101
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 138.88560800023697
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 124.7547390003092
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 217.09879500031093
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 93.08436500032258
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 203.1840009994994
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 103.92852000040875
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 128.31393600026786
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 135.67482700000255
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 140.13237499966635
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 129.00443200032896
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 102.34199200021976
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 226.35684399938327
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 118.30523099979473
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 102.28696099966328
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 163.18116000002192
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 145.7151550002891
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 97.47408800012636
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 91.54694900007598
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 157.89743999994243
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 199.92008899953362
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 188.3039419999477
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 163.5102790005476
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 169.73700699963956
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 105.17001499920298
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 128.88156700046238
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 91.97141100048611
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 154.74600699963048
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 122.48579900006007
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 172.71207199974015
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 146.6486649997023
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 178.69255500045256
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 134.82566099992255
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 221.25807600059488
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 142.55184000012378
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 130.48358600008214
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 135.10123299965926
+    },
+    {
+      "label": "Mortgage",
+      "latency_ms": 145.6168559998332
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 203.67763800004468
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.66439900027035
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 95.3303500000402
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 132.84014700002444
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 175.97017900061473
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 120.64592899969284
+    },
+    {
+      "label": "Money transfer",
+      "latency_ms": 107.031308999467
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 156.6824789997554
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 108.89276299985795
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 121.71714199939743
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 198.78043799963052
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 91.85544199954165
+    },
+    {
+      "label": "Credit card",
+      "latency_ms": 90.18638099951204
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 219.8492650004482
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 107.31282899996586
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 207.35858700027165
+    },
+    {
+      "label": "Checking or savings account",
+      "latency_ms": 214.70086299996183
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 109.58096200010914
+    }
+  ]
+}

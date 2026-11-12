@@ -1,0 +1,3525 @@
+{
+  "validation_sha256": "4fa1aa1cb1528bdcc21d6b5fb83d0fabbebeb57623eb96b76f3acacb586ad4cc",
+  "accuracy": 0.18928571428571428,
+  "avg_latency_ms": 68.2155713916662,
+  "invalid_predictions": 0,
+  "classification_report": {
+    "Credit reporting": {
+      "precision": 0.20607375271149675,
+      "recall": 0.7916666666666666,
+      "f1-score": 0.3270223752151463,
+      "support": 120.0
+    },
+    "Debt collection": {
+      "precision": 0.16445623342175067,
+      "recall": 0.5166666666666667,
+      "f1-score": 0.24949698189134809,
+      "support": 120.0
+    },
+    "Credit card": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 120.0
+    },
+    "Checking or savings account": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 120.0
+    },
+    "Mortgage": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 120.0
+    },
+    "Student loan": {
+      "precision": 1.0,
+      "recall": 0.016666666666666666,
+      "f1-score": 0.03278688524590164,
+      "support": 120.0
+    },
+    "Money transfer": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 120.0
+    },
+    "<invalid>": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.18928571428571428,
+    "macro avg": {
+      "precision": 0.17131624826665592,
+      "recall": 0.165625,
+      "f1-score": 0.0761632802940495,
+      "support": 840.0
+    },
+    "weighted avg": {
+      "precision": 0.19578999801903532,
+      "recall": 0.18928571428571428,
+      "f1-score": 0.08704374890748513,
+      "support": 840.0
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Credit reporting",
+      "Debt collection",
+      "Credit card",
+      "Checking or savings account",
+      "Mortgage",
+      "Student loan",
+      "Money transfer",
+      "<invalid>"
+    ],
+    "counts": [
+      [
+        95,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        58,
+        62,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        74,
+        46,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        60,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        54,
+        66,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        60,
+        58,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        60,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "predictions": [
+    {
+      "label": "Debt collection",
+      "latency_ms": 79.35594500031584
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.26716600007421
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 89.78856800013091
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.384693999774754
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 67.05786100019395
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 82.32980299999326
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 63.95914399990943
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 66.88503699979265
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.507072000087646
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 64.01699999969424
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.30814099987037
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.77696999992622
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.29672699994626
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.47052099976281
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.25150700009908
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 86.14746000012019
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 83.54196800019054
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.864245999960986
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 65.39130800001658
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 83.24965900010284
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 80.45404100039377
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.11698799973965
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.64006299985704
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.479914000050485
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 67.95730599969829
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 69.10268499996164
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.34632499987492
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 79.07445499995447
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.1859719997301
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.78668100000141
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.326404999847
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.5317249998152
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.4564319996025
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 69.64944399987871
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 53.637672000149905
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 68.55088699967382
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.60644899967883
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.90904399978172
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.481337999841344
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.51148000009198
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 68.03303100014091
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.84284500019567
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.32252799990601
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.89192499967976
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 53.806102000180545
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.166930000094
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.52612400019643
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.72073700016699
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.8189690002182
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 56.73455800024385
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 56.480557000213594
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.16828399998485
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 50.582432999817684
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.74826299974302
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.16129199959687
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.86950399980196
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 85.47816500004046
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 75.5725080002776
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.23592600000484
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.34370499965371
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.27590100007365
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.99850500021421
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.74449899979663
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.57149500003288
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 65.91534800008958
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.4893149999989
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 47.47310299990204
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 69.72628499988787
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 50.16373299986299
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 69.9414550003894
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 52.6805089998561
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 85.54936599966823
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.99130000009245
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.84977600015918
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.3329609996872
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.54243899969515
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 57.5324740002543
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.40892100000929
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.74056300013763
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.61334199985504
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.89379399981044
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.94377400027952
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.21597299976202
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.66499299966745
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.68543700003283
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.7414469997857
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 62.395440000273084
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.91200300005585
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.11143399989305
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.47175299976516
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.34195499986163
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.78717699975823
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.1214439998148
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 80.58159399979559
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.5766069999263
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.340888999940944
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 67.70637599993279
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.29693400015458
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 60.752249999950436
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 53.17030300011538
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 55.25162300000375
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 54.01188500036369
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 69.97599100031948
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 77.90440999997372
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.12004200026422
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 51.0425209999994
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 67.98890800018853
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.974643999827094
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 67.25260300027003
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.1130759998232
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.261846999797854
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 51.64591199991264
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 55.06241200009754
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.18532700020296
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 56.98723599971345
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 57.1374599999217
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.21063199970013
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.39194200005659
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.841200999926514
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 58.989639000174066
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.70875600020008
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 68.69955199999822
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.50028300001941
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.68471800009502
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 50.43160100012756
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 64.88098499994521
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.26332100026411
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.250570999651245
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 53.4158519999437
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 56.76871400009986
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 67.24517700013166
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.50465299998541
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.88833200027511
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.97920599998906
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.62294599973029
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.66607300002579
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.14070699996955
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.87531399976433
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 55.20670199985034
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 52.85958600006779
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.034123999921576
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.61900999962745
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 56.94753899979332
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.04917100020248
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 55.29626999987158
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.91418299998986
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.24769599983483
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 75.80756199968164
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.02128999992783
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 65.95643099990411
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 55.88066300015271
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.94493700018211
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 64.1291810002258
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 55.859569999938685
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.56884699998045
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.03474899997309
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.93605500026024
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 70.59654600016074
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 83.79504100003032
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.445897000056
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.15428000008251
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.17166100003669
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.89775600021676
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.99706799976047
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.83666999982597
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 69.02354600015315
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.8960059997662
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.19776300010926
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.75313800039294
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.33263399984935
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.01414899975134
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 63.16367299996273
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 56.32336999997278
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.06935200006046
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 66.88568299978215
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.10962999988624
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.30417400003353
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.40592699974877
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.89638600025137
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 50.96282400018026
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.68601600032343
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.83863800037216
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.61655500040797
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 69.20199399974081
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.41951799976232
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 65.67635900000823
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 83.5479430002124
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.16036900016843
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 64.2840549999164
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.17361200027517
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 77.73042899998472
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.02364900003522
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 65.05821099972309
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 64.3325209998693
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 65.17854699995951
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.90735200012932
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.205113000141864
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 70.19485199998599
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.990001999627566
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.50690999969811
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.42352300024868
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.24372699991
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.15751299974727
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 60.08289900000818
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 60.31463499994061
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.56903099991541
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.9674900000864
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.04239199994845
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.92902999985017
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 59.42119199971785
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.01740900026198
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 66.9411100002435
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 78.0374920000213
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.27237599990622
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.425925000046846
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.79861900032847
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.11403200012501
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.48386900027981
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 83.03688999967562
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.70826599981228
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.45258599995941
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.68114699981743
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 79.5784580000145
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.65712100015298
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 68.259209000189
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.68072000009852
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 62.02106700038712
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 83.99331999999049
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 52.17229700019743
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.20245499963494
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.494361999928515
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.87542199987729
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.45809899986489
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.411779000161914
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.05116599991379
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 51.1929610001971
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.50641000014002
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 57.87810099991475
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.0399470003722
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.98146600023756
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.92417100002058
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.68512699981511
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.95616599994901
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.28375699993194
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.00791199988089
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.45981500001653
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.87557499982722
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 66.65550300022005
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.16194799982622
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.08901600022
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.738937999805785
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.4517880000567
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.382965000200784
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.345605000122305
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 47.666717000083736
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.45657400012351
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.38125399994533
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.51298100013446
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.48717300001226
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 65.82485799981441
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 67.44125900013387
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 55.42060300012963
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.20767100000012
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.95017700002791
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.64600000002974
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.17080000020724
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.97477599979538
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 51.35292900013155
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 47.98677000007956
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.9353989998126
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.98259699989285
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.54530800023349
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.43626999995467
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.95782699995834
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.05896800004484
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 64.37335900000107
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 67.26327300020785
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.46692399986932
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.159758999849146
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 68.1053719999909
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.47985599992535
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.1211850002328
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.687452000333
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 57.85823300038828
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 82.21675700042397
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 51.86180800001239
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.47971600008896
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.560916000009456
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.11630399994829
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.55446199997095
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.40884099985124
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 68.11000300012893
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 55.79739499989955
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 56.500338000205375
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 54.2712409996966
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.382207000282506
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.73847099986597
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.35847099971215
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 57.80830700041406
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 82.68615399992996
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.00114200001917
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.12992899971505
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.80473699974755
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.422989000097004
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.05827000033605
+    },
+    {
+      "label": "Student loan",
+      "latency_ms": 48.70023700004822
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.4335810001503
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.31944500008103
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.37196399980894
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.56105900018883
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.45154799981901
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.16830400019535
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 85.45082600039677
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.00763900002494
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.96992200013119
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.04363099992406
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.87304300022879
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 87.14467100026013
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.88419199989949
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 78.32696000014039
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.93383500013806
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.7254759999596
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 52.04529599996022
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.60004800002571
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.671183999886125
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 69.99088199972903
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 63.61698900036572
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.81565099970976
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 63.10644200038951
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.11531499990451
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.67238700014423
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 84.46464300004664
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.99606000021231
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 60.569977999875846
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 56.74988600003417
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.74804200027575
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 58.09294200025761
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 55.25894699985656
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.01741200030665
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.51586000019961
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.70545100038726
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 56.28513800002111
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.72555300013482
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 53.93198999991
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.7499749999879
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.76069999979882
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.62114900029337
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 85.67757099990558
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 60.81482500030688
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.51220300022032
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 50.21297100029187
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 54.12440100008098
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.56911199972092
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 51.75456899996789
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 63.1883910000397
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.12589000015578
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.86942700016152
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.49350299996149
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.01280299988866
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.11515499982124
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 55.62418299996352
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.06475300012971
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.31663599998137
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 68.31619000013234
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.19555900005071
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 64.34630000012476
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 57.3705010001504
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.92821599994568
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 69.72743400001491
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 52.6308139997127
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 135.8250890002637
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.11460100008117
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 61.109360000045854
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 108.63592399982736
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.89246699985961
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 64.21099599992885
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 82.19206600006146
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 69.12337099993238
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.29994199967405
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 63.60241999982463
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 70.48714000029577
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 84.0580150002097
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 62.219396000273264
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.81478800036712
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 67.19371899998805
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 75.45424900035869
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.87351200031844
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.93125100000907
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 60.966992000430764
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 64.39243900013025
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.34541300003184
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.72395799972219
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.33233999985532
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 79.97006400000828
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.52726699991763
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.49583799998072
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 61.60794600009467
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.78438299999834
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.94713999987289
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.36008999998012
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.5153039998404
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.10364400023172
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 75.37991699973645
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 83.56645899993964
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 63.84054299996933
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 60.495230000015
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.84369699990566
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 60.81136800003151
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 77.07661099993857
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.70206600036545
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.39603800023542
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.09331700000621
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.593470000058
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 85.14912099963112
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 86.13789099990754
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.44451600006141
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 63.61283899968839
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.77633200001219
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 54.711901000246144
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.560006999901816
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 68.67764000026
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.9012830001011
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.87794699996084
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.50722400012819
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.85888999972667
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.914068000030966
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.373826999930316
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 69.27034399996046
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 58.339219999652414
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.44937599984769
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.88849800029129
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.6891480002887
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.65204400007497
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 52.02071199983038
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.58421599974463
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.6369310001428
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.7025649999523
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.47918499980733
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.41538200009745
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.70066599989877
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.19883799973104
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.52201399994374
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.839721999935136
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.179866000031325
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 60.012165999978606
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 85.79270800009908
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.28604599969913
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 51.06139700001222
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 53.13124299982519
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.56748100019104
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.14442699994106
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.38067199989382
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.9422189999932
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 110.88601699975698
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.131380999839166
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.1075070000552
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.534156000027
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 57.30470299977242
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 57.5312800001484
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 47.563402999912796
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.61656499973833
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 84.03740199992171
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 54.93991699995604
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.74292999995669
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.970960000100604
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 57.72475300000224
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 84.65769700023884
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.4110109999383
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.877698000022065
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.3095230001054
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.049206999872695
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 69.36392199986585
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.67450700005429
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.24122100022578
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.9123399998789
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.9136760000074
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.4903540002706
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.22893699999622
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.03333099996598
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.17227399998228
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 57.35808700001144
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 75.00726599982954
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 86.81243299997732
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.37033399992288
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 70.34752700019453
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.571684999591525
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.8105929999947
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 51.89125300012165
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 89.3789699998706
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.06120200006626
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 47.719552000216936
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 46.689890999914496
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.62858300029984
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 78.96219999975074
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 60.874485000113054
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.96135500030141
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.74151200002598
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 89.7148260000904
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.79043999996793
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.47847800010277
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.0683029999891
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 67.81778699996721
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 85.08954999979323
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 77.16224899968438
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.401194999973086
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.86676799978886
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 90.3206319999299
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.19436800037147
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 66.02253600021868
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.79580900012661
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 85.31121400028496
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.1999550001965
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.23061100027917
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.40113700033544
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 60.658776000309444
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.40923000028488
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 66.04766300006304
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.309934999655525
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.19129499982591
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.96418599976096
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.98307100018064
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 54.24103999985164
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 70.04645699998946
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 60.73552499992729
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.842889000061405
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.47711299978255
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.50562599994737
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.71864200019263
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 53.35595300039131
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.40280699984214
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.5381440001911
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.01312400008464
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.6296529998508
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 47.683131999747275
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.85636399981377
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.35675700021238
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 83.96560899973338
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.95187500005704
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.99290099990685
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 108.34613699989859
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.45645800025159
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 58.75549500024135
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.08251499994367
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.59830700004022
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 52.42014900022696
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.89196400038054
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.908845999823825
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.11460899984013
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.17105899994567
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.56165700014026
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 50.36170999983369
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.89680000005683
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.99482500008526
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 65.03803700024946
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.51962100003584
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.42826599967157
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.40598099983254
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.4663250000267
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 56.363517999670876
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.01150100001905
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 69.861205000052
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.57361400015361
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 55.94707400041443
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.28470799989373
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 79.67703499980416
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 86.84051399995951
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.9944530002249
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 65.33584599992537
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.64758900011293
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 70.35191300019505
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.36447599993335
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.18943000001309
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 69.74696399993263
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 129.1010400000232
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.774976000378956
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.799689999588736
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 68.71545399962997
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.454365000419784
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.8862130001653
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 88.19829399999435
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.9502249999714
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.15790399986145
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 87.15597299988076
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 69.07003300011638
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.55623500017828
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.92575700013549
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.55323099991074
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.49445399986143
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 69.77059499968163
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.3487979996753
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.132281999969564
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.30671000024813
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 85.08921899965571
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.2278430000406
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.90211999977691
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 77.31252699977631
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.9571080002861
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 84.30288199997449
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.76074900007734
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 68.54505999990579
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 75.41633300024841
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 50.42949200014846
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 87.26958200031731
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 50.40973999984999
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 84.56994500011206
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.34008199983509
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 53.69856700008313
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 80.8813960002226
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.423885000123846
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 75.41258399987782
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.8037290000575
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.8929609999941
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 62.30752999999822
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.624516000236326
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.36927400012428
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.52365099981762
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.66479999973308
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.82865500005573
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.4631829996033
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.39840099991125
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.18174899989026
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.10639000015362
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.95794100002604
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 56.36607800033744
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.214249000215204
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.394628000063676
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 55.48133799993593
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 51.05329600019104
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 62.72759800003769
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 70.32771500007584
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 92.1262290003142
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.56118199959383
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.71809900022708
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.462072999882366
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 80.17375700001139
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.45657000036954
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 87.45536399965204
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.28706699981922
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.3321419997992
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.93178999984593
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.49138799979846
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 46.48779499984812
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.717936000026384
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 70.41507399981128
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.21483200016155
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.38051900011487
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 85.8002359996135
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.00900499983254
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.80857100008507
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.1722419998041
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.10203999992882
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 65.86771100000988
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 57.67990899994402
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.52094199995918
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.88352500003748
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 51.103111000429635
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.66493600027388
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 55.035021000094275
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.2913849998331
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.72607900006187
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 64.59742700008064
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 78.32686300025671
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.99153499991371
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.35182800013717
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.09510399961073
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.09668000027159
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 54.88184900013948
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.422032000384206
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 56.796872000177245
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.64002499996059
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 66.91080900009183
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 50.23953399995662
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.92341699965255
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 86.17770199998631
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 58.04835900016769
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 54.02030200002628
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.19062799990206
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 85.6055109998124
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 77.6953899999171
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 88.78419299981033
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 75.62570800018875
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.96533299986186
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.7288850001496
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 77.68471200006388
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 60.28698299996904
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.70740799982377
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 84.38221899996279
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 52.64423900007387
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 51.72303800009104
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 66.05209200006357
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 58.5612569998375
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 52.68897799987826
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.98297399979492
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.1803029996554
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 91.59306699984882
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 87.41394599974228
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.90689200014822
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.29913899993335
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.901911999768345
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.47353499983001
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 87.11768000011944
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.85703499994634
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 65.69208099972457
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 49.301202000151534
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 69.30200099986905
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 83.16733099991325
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.6225829997602
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.174839000002976
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.25783899968883
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.87769699976343
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.296833999960654
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 53.133903999878385
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 63.91634700003124
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 88.32898299988301
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 83.16684099963823
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.24677699995664
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 112.19177099974331
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.50101400001586
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 58.36745099986729
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.90222800006086
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 92.54334300021583
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.6019569995915
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.66192199981015
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.13862000041627
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 90.4113699998561
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.58216300014465
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 65.33770399983041
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.0002089995869
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.64789000009841
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 51.05715899981078
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.36770900010379
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 71.37097299982997
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 85.30677399994602
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.9215440001717
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.67519399992307
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.9279809998734
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.8483599999854
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 54.829756999879464
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 74.85155600033977
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.927423000099225
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.38157099977616
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 79.5453069999894
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 64.36028600001009
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.0781679999709
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.45334800003911
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 67.68510299980335
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 78.44025500025964
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 92.25783800002318
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.06053199981034
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.5589159996598
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 70.77937199983353
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 79.77995100009139
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.23069000021133
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 61.72498699970674
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.354515999686555
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.5336509999579
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.44263200030764
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.96277599997848
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.2797869999522
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 88.95636100032789
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 85.7078209996871
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 79.64285499974721
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 72.5348349997148
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 66.71412800005783
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.22533399998065
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 80.08471099992676
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.31608000010237
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 60.884175999945
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.55638899985206
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 82.52790599999571
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.92349900005502
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.56950899990989
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 73.73881700004858
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 61.95828099998835
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.96529299992471
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 80.24090200024148
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.5963750001174
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 100.10377600019638
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 78.57897299982142
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 93.75329700014845
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 76.10507200024585
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.93081400000301
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 83.21615299973928
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 52.15505599971948
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 51.89450299985765
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.99038599978667
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 74.13255500023297
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 88.66411300004984
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.95125699972414
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 71.86789100023816
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 67.8269380000529
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 80.61452699985239
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.43202999993446
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.14709300010145
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 81.8173630000274
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 60.17764399985026
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 84.00189199983288
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.46409099995799
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 60.895955999967555
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.2049679999327
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 60.057680000227265
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.66533699984211
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.233317000063835
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 108.02722100015671
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 48.48607099984292
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 53.69530899997699
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 83.3165970002483
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 85.01078400013284
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 66.15826999995988
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 84.42438400015817
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 55.97425199994177
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 56.99389900019014
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 77.64410499976293
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 81.74777100020947
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 61.885148999863304
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 52.42339999995238
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 50.863469000432815
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 75.89438000013615
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 62.26023599992914
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 84.45855499985555
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 53.25915699995676
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 63.44941699990159
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.90798599999471
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 59.83477200015841
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 48.79854000000705
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 83.35232499985068
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 47.970015999908355
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 72.9039890002241
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 61.84225700008028
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 107.04991100010375
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 67.6325269996596
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 76.11923100012064
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 49.45568399989497
+    },
+    {
+      "label": "Debt collection",
+      "latency_ms": 47.01492899994264
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 46.83580900018569
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 84.25652799996897
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 73.68904800023302
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 115.31216299999869
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 86.13152599991736
+    },
+    {
+      "label": "Credit reporting",
+      "latency_ms": 59.37308900001881
+    }
+  ]
+}

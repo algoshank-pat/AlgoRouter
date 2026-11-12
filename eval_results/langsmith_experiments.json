@@ -1,0 +1,10 @@
+{
+  "baseline-qwen3-1.7b": {
+    "name": "baseline-qwen3-1.7b-83dc798a",
+    "url": "https://smith.langchain.com/o/44990052-f9fe-499b-b7da-2d2fc85355e7/projects/p/4d657dab-7bb8-4acb-b1c2-6d6dd734297c"
+  },
+  "finetuned-lora-r8": {
+    "name": "finetuned-lora-r8-e0e57f65",
+    "url": "https://smith.langchain.com/o/44990052-f9fe-499b-b7da-2d2fc85355e7/projects/p/3fa82a6d-ea5c-423c-bc6d-6e46e66a1384"
+  }
+}
