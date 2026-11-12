@@ -71,8 +71,23 @@ The original zero-shot prompt sent 838 of 840 complaints to Credit reporting or 
 
 Both exact-match experiments were published from the saved predictions on `cfpb-complaints-val`. The LangSmith dataset uses validation row IDs and reference labels. Each experiment includes the predicted label and measured inference latency. Links are saved in `eval_results/langsmith_experiments.json`.
 
+## April Money transfer augmentation experiment
+
+We added 240 unused January–February Money transfer complaints with bank-account wording, increasing that class from 480 to 720 training examples. Each other class stayed at 480. We used the original LoRA settings and compared the checkpoints on the same 2,800 April complaints, with 400 per class.
+
+| April metric | Original LoRA | Augmented LoRA | Change |
+| --- | ---: | ---: | ---: |
+| Money transfer recall | 77.00% | 87.75% | +10.75 pp |
+| Checking or savings account recall | 74.00% | 60.00% | −14.00 pp |
+| Money transfer precision | 79.18% | 70.06% | −9.12 pp |
+| Overall accuracy | 84.00% | 83.57% | −0.43 pp |
+
+Money transfer complaints routed to Checking or savings fell from 70 to 33. In the reverse direction, Checking or savings complaints routed to Money transfer rose from 63 to 119. The augmented model caught more transfers and also assigned the transfer label to more account complaints. Recall changes in the other five queues ranged from −2.00 to +1.75 percentage points.
+
+This single run changed both the wording and the number of Money transfer training examples. An equal-size random augmentation would be needed to isolate the effect of selecting account-like wording. [Colab run](https://colab.research.google.com/drive/19PVe5p6cfQLhT2_39KSWX2HY9ehCKAIQ) · [Paired results and confusion matrix](eval_results/april_augmentation_comparison.json)
+
 ## Limitations
 
-The holdouts are balanced across queues. Production complaint volumes and label mix can differ. Queue boundaries can also be ambiguous, and the CFPB narratives represent consumers who opted in to publication. The April evaluation used the same January–February checkpoint. Money transfer recall was 77%, so urgent complaints still need human review. This prototype is for internal triage and has no customer-facing output.
+The holdouts are balanced across queues. Production complaint volumes and label mix can differ. Queue boundaries can also be ambiguous, and the CFPB narratives represent consumers who opted in to publication. The original January–February checkpoint achieved 77% Money transfer recall on the April holdout, so urgent complaints still need human review. This prototype is for internal triage and has no customer-facing output.
 
 See [submission links](SUBMISSION_LINKS.md) for the executed Colab notebooks and the verified Mortgage traces.
